@@ -1,12 +1,10 @@
 // FILE: sidebar.js
 
-class Sidebar {
-
-  loadSidebar() {
-
-    console.log('Sidebar component is loaded...')
-
+class SideBar { 
+  loadSideBar() { 
+    console.log('sidebar component is loaded.....')
   }
 }
 
-export let sidebar = new Sidebar(); 
+
+export { SideBar }

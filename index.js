@@ -1,8 +1,5 @@
-// FILE: index.js
+import { Dashboard }  from './dashboard/dashboard.js'; 
 
-import { dashboard } from './dashboard/dashboard';
+const dashboard = new Dashboard(); 
 
-
-dashboard.loadDashboard()
-
-
+dashboard.loadDashboard(); 
